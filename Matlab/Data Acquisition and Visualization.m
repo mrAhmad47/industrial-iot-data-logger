@@ -39,7 +39,7 @@ try
     grid on;
     title('Real-Time Calibrated Temperature Monitoring (LM35)');
     xlabel('Elapsed Time (seconds)');
-    ylabel('Temperature (°C)');
+    ylabel('Temperature (Â°C)');
 
     % --- 3. MAIN DATA ACQUISITION LOOP ---
     while ishandle(h) % Loop continues as long as the plot window is open
